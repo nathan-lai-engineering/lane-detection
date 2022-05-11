@@ -116,13 +116,13 @@ def detect(cfg,opt):
                 print("\n", json_filename, "loaded")
           else:
             json_data = [None, None]
-            if opt.enforce_external is True:
+            if opt.enforce_external == True:
               print("Error, no external bounding boxes loaded 1")
               continue
         else:
           json_data = [None, None]
           
-          if opt.enforce_external is True:
+          if opt.enforce_external == True:
             print("Error, no external bounding boxes loaded 2")
             continue
         #print(len(json_data[1]))
