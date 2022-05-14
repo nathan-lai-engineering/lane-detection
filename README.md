@@ -21,12 +21,18 @@ Utility functions to be used later on
 The call to the YOLOP architecture to identify cars and assign lane numbers
 
 <h3>Post-Processing</h3>
+
 Removes lane 0 outliers and adjusts the lane 0 detection to ensure only one lane 0 detection
-&NewLine;
+
+<br/>
+
 Final detections will be located in the processed folder in the following format:
+
 [lane number, x1, y1, x2, y2, confidence, lane center]
-&NewLine;
+
+<br/>
 If there are external bounding boxes in the JSON format from MASK-RCNN the format will be:
+
 [lane number, x1, y1, x2, y2, confidence, lane center, class id]
 
 <h3>Closest Boxes</h3>
