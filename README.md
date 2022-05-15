@@ -5,7 +5,10 @@ https://github.com/hustvl/YOLOP
 
 Added additional lane numbering of cars.
 
-<h1>Cells Explained</h1>
+<h1>Examples</h1>
+![Example 1](/readme-images/example%201.PNG)
+
+<h1>Usage</h1>
 <h3>Setup</h3>
 Enters the YOLOP directory
 
