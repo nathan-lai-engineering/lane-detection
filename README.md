@@ -6,7 +6,14 @@ https://github.com/hustvl/YOLOP
 Added additional lane numbering of cars.
 
 <h1>Examples</h1>
-![Example 1](https://github.com/nathan-lai-engineering/lane-detection/blob/main/readme-images/example%201.PNG?raw=true)
+<img src="https://github.com/nathan-lai-engineering/lane-detection/blob/main/readme-images/example%201.PNG?raw=true">
+Above, frame of car detections with 3 closest lane numbers (adjacent and current lanes)
+<br/>
+<br/>
+<br/>
+
+<img src="https://github.com/nathan-lai-engineering/lane-detection/blob/main/readme-images/example%202.PNG?raw=true">
+Above, frame of misdetection of current lane (numbered 0). Lane number assignment is limited by accuracy of original car detection (car in front not detected)
 
 <h1>Usage</h1>
 <h3>Setup</h3>
